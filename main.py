@@ -19,10 +19,12 @@ elif operation == 2:
     print("The result of subtraction is: ", num1 - num2)
 elif operation == 3:
     suboperation = int(input("Enter the sub-operation number: "))
+    print("1. Multiplication")
+    print("2. exponents")
     if suboperation == 1:
         print("The result of multiplication is: ", num1 * num2)
     elif suboperation == 2:
-        print("The result of division is: ", num1 / num2)
+        print("The result of division is: ", num1 ** num2)
     else:
         print("Invalid sub-operation number. Please enter a valid sub-operation number.")
 elif operation == 4:
