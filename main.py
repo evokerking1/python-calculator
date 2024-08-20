@@ -21,14 +21,31 @@ elif operation == 3:
     suboperation = int(input("Enter the sub-operation number: "))
     print("1. Multiplication")
     print("2. exponents")
+    print("3. Exit")
     if suboperation == 1:
         print("The result of multiplication is: ", num1 * num2)
     elif suboperation == 2:
         print("The result of division is: ", num1 ** num2)
+    elif suboperation == 3:
+        _exit = os.system("exit")
     else:
         print("Invalid sub-operation number. Please enter a valid sub-operation number.")
 elif operation == 4:
-    print("The result of division is: ", num1 / num2)
+    suboperation = int(input("Enter the sub-operation number: "))
+    print("1. Division w/ remainders")
+    print("2. Just remainders")
+    print("3. Division without remainders")
+    print("4. Exit")
+    if suboperation == 1:
+        print("The result of multiplication is: ", num1 / num2)
+    elif suboperation == 2:
+        print("The result of division is: ", num1 % num2)
+    elif suboperation == 3:
+        print("The result of division is: ", num1 // num2)
+    elif suboperation == 4:
+        _exit = os.system("exit")
+    else:
+        print("Invalid sub-operation number. Please enter a valid sub-operation number.")
 elif operation == 5:
     _exit = os.system("exit")
 else:
