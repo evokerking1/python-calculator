@@ -54,4 +54,4 @@ else:
     print("Invalid operation number. Please enter a valid operation number.")
 print("Thank you for using my calculator program!")
 
-print("Please join my discord server: https://discord.gg/ for updates on all my projects, for a list of my projects, go to https://evokerking.dev/")
+print("Please join my discord server: https://discord.gg/7PtSs7vHGA for updates on all my projects, for a list of my projects, go to https://evokerking.dev/")
